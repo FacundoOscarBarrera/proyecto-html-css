@@ -1,0 +1,47 @@
+h1 {
+	text-align: center;
+	background-color: white;
+	font-family: impact,arial,verdana;
+	color: green;
+	font-size: 40pt;
+}
+.club{
+	text-decoration: underline;
+	color: white;
+	font-size: 15pt
+}
+.datos{
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+.historia {
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+.hinchada {
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+.estadio {
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+.precios {
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+.contacto {
+	margin-left: 30pt;
+	text-decoration: underline;
+	color: white;
+}
+b {
+   color: white;
+   font-family:impact,verdana;
+   font-size: 25pt;
+}

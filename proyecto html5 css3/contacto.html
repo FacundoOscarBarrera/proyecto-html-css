@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilocontacto.css">
+	<title>Contacto</title>
+</head>
+<body>
+	<h1>Envianos tu consulta</h1>
+		<table border="3" width="1000" height="500" bordercolor="green"align="center" cellspacing="0">
+			<form action=mailto:f.o.b_96@hotmail.com.ar method="post">
+				<tr>
+					<td>Nombre</td>
+					<td><input type="text" name="nombre"></td>
+				</tr>
+				<tr>
+					<td>Apellido</td>
+					<td><input type="text" name="apellido"></td>
+				</tr>
+				<tr>
+					<td>Dirección</td>
+					<td><input type="text" name="direccion" size="35"></td>
+				</tr>
+				<tr>
+					<td>Telefono</td>
+					<td><input type="text" name="numero telefono" size="30"></td>
+				</tr>
+				<tr>
+					<td>Tu pais</td>
+					<td><select name="paises">
+						<option>Argentina</option>
+						<option>Brasil</option>
+						<option>Uruguay</option>
+						<option>Paraguay</option>
+						<option>Chile</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Jugador Idolo favorito<br>(mantener presionado<br>CTR para elegir mas de uno)</td>
+					<td><select multiple="jugadores idolos">
+						<option>Garrafa Sanchez</option>
+						<option>Cvitanich</option>
+						<option>Jesus Datolo</option>
+						<option>Luchetti</option>
+						<option>Sanguinetti</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>¿Deseo recibir información?</td>
+					<td><input type="radio" name="info" value="afirmativo" checked>Si</td>
+				</tr>
+				<tr>
+					<td></td>	
+					<td><input type="radio" name="info" value="negativo">No</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="enviar por email"></td>
+					<td><input type="reset" value="vaciar los datos"></td>
+				</tr>
+			</form>
+		</table>
+</body>
+</html>

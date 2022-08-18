@@ -1,0 +1,13 @@
+h1 {
+	font-size: 30pt;
+	color: white;
+	background-color: green; 
+}
+b {
+	font-size: 15pt;
+	color: green;
+	text-decoration: underline; 
+}
+li {
+	color: white;
+}
